@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 150px;
+}
+
+#submit {
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#submit:hover {
+    background-color: hsl(210, 100%, 60%);
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    margin: 5px;
+}

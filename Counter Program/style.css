@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#heading {
+  font-size: 4.5em;
+  text-decoration: underline solid black;
+}
+
+#count {
+  font-size: 8em;
+}
+
+.btn {
+  background-color: hsl(220, 100%, 60%);
+  color: white;
+  height: 2.25em;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.btn:hover {
+  background-color: hsl(220, 100%, 70%);
+  cursor: pointer;
+}
+
+.credit {
+  position: fixed;
+  right: 2vw;
+  bottom: 2vh;
+  font-size: 1em;
+  color: hsl(220, 82%, 13%);
+}

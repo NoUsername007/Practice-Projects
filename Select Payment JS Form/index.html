@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+        button {
+            border-radius: 5px;
+            border: 1px solid black;
+            text-transform: capitalize;
+        }
+
+        #payment-type {
+            display: none;
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="">Paymnet Mode:</label>
+    <br>
+    <input type="radio" id="online" name="payment-mode">
+    <label for="online">Online Transaction</label>
+    <br>
+    <input type="radio" id="cod" name="payment-mode">
+    <label for="cod">Cash on Delivery</label>
+    <br>
+    <br>
+    <div id="payment-type">
+        <label for="" id="payment-method">Payment Method:</label>
+        <br>
+        <input type="radio" id="visa-btn" name="payment">
+        <label for="visa-btn">Visa</label>
+        <br>
+        <input type="radio" id="card-btn" name="payment">
+        <label for="card-btn">MasterCard</label>
+        <br>
+        <input type="radio" id="paypal-btn" name="payment">
+        <label for="paypal-btn">Paypal</label>
+    </div>
+    <br>
+    <button type="submit" id="submit-btn">Submit</button>
+    <p id="result"></p>
+    <p id="output"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
